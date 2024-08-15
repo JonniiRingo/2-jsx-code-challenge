@@ -15,21 +15,48 @@ import ReactDOM from 'react-dom/client';
 
 // Defiing the app
 function App(){
+    return (
     <div>
         <h1>Setting Up a Project for Development</h1>
         <ul>
-            <p>You want to navigate into the folder that you are going to be workig in through the terminal</p>
-            <li> cd "project folder" </li>
-            <p>You want to create a .gitignore and then copy the standard things to ignore from github/node page. </p>
-            <li>touch .gitignore</li>
-            <p>Now you want to initialize git</p>
-            <li>git init</li>
-            <p>add all files to working tree</p>
-            <li>git add .</li>
-            <p>submit your initial commit</p>
-            <li>git commit -m "initial commit"</li>
+            <li>Navigate into the folder that you are going to be working in through the terminal: 
+                <br /> 
+                <code>cd "project folder"</code>
+            </li>
+
+            <li>Now install the required node packages 
+            <br />
+            <code>npm i</code>
+            </li>
+
+            <li>Create a .gitignore and then copy the standard things to ignore from https://github.com/github/gitignore/blob/main/Node.gitignore: 
+                <br /> 
+                <code>touch .gitignore</code>
+            </li>
+            
+            <li>Initialize git: 
+                <br /> 
+                <code>git init</code>
+            </li>
+
+            <li>Add all files to working tree: 
+                <br /> 
+                <code>git add .</code>
+            </li>
+
+            <li>Submit your initial commit: 
+                <br /> 
+                <code>git commit -m "initial commit"</code>
+            </li>
+
+            <li> Run the react project
+                <br />
+                <code>npm run dev</code>
+            </li>
+
         </ul>
     </div>
+    ); 
 }
 
 // Rendering the app
